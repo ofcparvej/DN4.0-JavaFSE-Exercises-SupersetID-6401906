@@ -1,0 +1,17 @@
+.container {
+  text-align: left;
+  margin-left: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.textRed {
+  color: red;
+}
+
+.textGreen {
+  color: green;
+}
+
+.office-block {
+  margin-bottom: 30px;
+}
