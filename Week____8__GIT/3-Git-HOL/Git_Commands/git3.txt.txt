@@ -1,0 +1,16 @@
+# Creates an empty file named "app.log"
+touch app.log
+
+# Creates a new directory named "log"
+mkdir log
+
+# Add a rule to ignore all files with the .log extension
+echo "*.log" >> .gitignore
+
+# Add a rule to ignore the "log" directory and everything inside it
+echo "log/" >> .gitignore
+
+git status
+
+git add .gitignore
+git commit -m "Update .gitignore to exclude log files and folders"
